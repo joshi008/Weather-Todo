@@ -1,0 +1,132 @@
+.weather-app {
+    display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: start;
+  width: 35%;
+  min-height: 600px;
+  background: #161a2b;
+  text-align: center;
+  margin: 2% auto;
+  border-radius: 10px;
+  padding-bottom: 32px;
+  transition: 1;
+}
+
+@media only screen and (max-width: 900px) {
+  .weather-app {
+    width: 80%;
+  }
+}
+@media only screen and (max-width: 600px) {
+  .weather-app {
+    width: 90%;
+  }
+}
+
+
+.weather-search {
+    padding: 14px 32px 14px 16px;
+  border-radius: 4px 0 0 4px;
+  border: 2px solid #5d0cff;
+  outline: none;
+  width: 65%;
+  background: transparent;
+  color: #fff;
+  margin-bottom: 1rem;
+}
+
+.weather-search::placeholder {
+    color: #e2e2e2;
+  }
+
+  .weather-button {
+    padding: 16px;
+    border: none;
+    border-radius: 0 4px 4px 0;
+    cursor: pointer;
+    outline: none;
+    background: linear-gradient(
+      90deg,
+      rgba(93, 12, 255, 1) 0%,
+      rgba(155, 0, 250, 1) 100%
+    );
+    color: #fff;
+    text-transform: capitalize;
+  }
+  
+  .weather-search.edit {
+    border: 2px solid #149fff;
+  }
+  
+  .weather-search.edit {
+    background: linear-gradient(
+      90deg,
+      rgba(20, 159, 255, 1) 0%,
+      rgba(17, 122, 255, 1) 100%
+    );
+    padding: 16px 22px;
+  }
+  
+  .weather-container {
+    display: flex;
+    flex-direction: row;
+    position: relative;
+  }
+
+  .city {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 40px 8%;
+    border-radius: 20px;
+    background: rgba(250, 250, 250, 0.85);
+    box-shadow: 10px 10px 5px 0px rgba(15, 15, 15, 0.404);
+}
+
+.city-temp {
+  font-size: 5rem;
+  font-weight: bold;
+  margin-top: 10px;
+  color: #1e2432;
+  text-align: center;
+}
+
+.city sup {
+  font-size: 0.5em;
+}
+
+.city-name {
+  font-size: 2em;
+}
+
+.city-name sup {
+  padding: 0.2em 0.6em;
+  margin-left: 0.2em;
+  border-radius: 30px;
+  color: #fff;
+  background: #ff8c00;
+}
+
+.city-icon {
+  margin-top: 10px;
+  width: 100px;
+  height: 100px;
+}
+
+.info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+@media only screen and (max-width: 600px) {
+  .search {
+      padding: 20px 15%;
+  }
+
+  .city {
+      padding: 40px 20%;
+  }
+}
