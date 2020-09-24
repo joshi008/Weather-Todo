@@ -13,6 +13,11 @@
   transition: 1;
 }
 
+.pad {
+  padding: 1rem;
+  line-height: 1.7rem;
+}
+
 @media only screen and (max-width: 900px) {
   .weather-app {
     width: 80%;

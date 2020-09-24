@@ -33,13 +33,13 @@ function Weather() {
                         <sup>&deg;C</sup>
                     </div>
                     <div>
-                        <span>Min:{Math.round(weather.main.temp_min)}     Max:{Math.round(weather.main.temp_max)}</span>
+                        <span className="pad">Min:{Math.round(weather.main.temp_min)} </span><span className="pad">Max:{Math.round(weather.main.temp_max)}</span>
                     </div>
                     <div>
-                        <span>Pressure: {Math.round(weather.main.pressure)}</span>
+                        <span className="pad">Pressure: {Math.round(weather.main.pressure)} mbar</span>
                     </div>
                     <div>
-                        <span>Humidity: {Math.round(weather.main.humidity)}</span>
+                        <span className="pad">Humidity: {Math.round(weather.main.humidity)} g/kg</span>
                     </div>
                     <div className="info">
                         <img className="city-icon" src={`https://openweathermap.org/img/wn/${weather.weather[0].icon}@2x.png`} alt={weather.weather[0].description} />

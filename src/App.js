@@ -11,7 +11,7 @@ import {
 } from "react-router-dom";
 import Weather from "./Weather";
 import TodoList from "./TodoList";
-import { AppBar, Avatar, Container, IconButton, Toolbar } from '@material-ui/core';
+import { AppBar, Container, IconButton, Toolbar } from '@material-ui/core';
 import { GrMail } from 'react-icons/gr'
 import { TiWeatherSnow } from 'react-icons/ti'
 import { SiLinkedin } from 'react-icons/si'

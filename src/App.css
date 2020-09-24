@@ -35,20 +35,24 @@ body {
   /* background: radial-gradient(#FAA62A, #FA6C21); */
   /* background-color: #8ae4ff; */
   /* background: #78dde4; */
-  /* background-image: url(back1.svg);
+  /* background-image: url(back2.jpg); 
   background-position: center;
   background-repeat: no-repeat; 
-  background-size: cover;  */
+  background-size: cover;   */
 
-  
+  background: url(back2.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
   margin: 0;
   height: 100%;
 }
-body {
+/* body {
 	background: linear-gradient(-45deg, #ffffff, #77efff, #5efff7, #13fff3);
 	background-size: 400% 400%;
 	animation: gradient 15s ease infinite;
-}
+} */
 
 @keyframes gradient {
 	0% {
