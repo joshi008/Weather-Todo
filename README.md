@@ -1,5 +1,7 @@
 # Weather-Todo
  A web app that retireves weather information of every city and gives functionality to have a todo list using react
+ 
+ Hosted at: https://weather-todo.netlify.app/
 
 # Steps to open:
 1. Download the Repo
